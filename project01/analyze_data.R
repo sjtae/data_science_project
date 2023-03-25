@@ -2,4 +2,4 @@ library(tidyverse)
 
 mtcars %>%
   glimpse() %>%
-  select(mpg,hp,weight)
+  select(mpg,hp,wt)
