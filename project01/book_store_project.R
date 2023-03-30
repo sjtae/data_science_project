@@ -34,12 +34,10 @@ df <- df %>%
   rename(Publisher = สำนักพิมพ.)
 
 ## rename value from thai to english
-
 sort(table(df$Book_category))
 df$Book_category[df$Book_category == 'กวี'] <- "Poetry"
 
 ## change date format
-
 as.Date(df$PublishedDate, format = "%Y-%m-%d")
 
 df$PublishedDate[c(664,665,666)] <- c("2022-09-25","2022-09-25","2022-09-25")
@@ -90,12 +88,10 @@ df <- df %>%
   rename(Publisher = สำนักพิมพ.)
 
 ## rename value from thai to english
-
 sort(table(df$Book_category))
 df$Book_category[df$Book_category == 'กวี'] <- "Poetry"
 
 ## change date format
-
 as.Date(df$PublishedDate, format = "%Y-%m-%d")
 
 df$PublishedDate[c(664,665,666)] <- c("2022-09-25","2022-09-25","2022-09-25")
@@ -221,7 +217,6 @@ ggplot(df, aes(Star_rating,Book_category)) +
     x = "Total Star Rating",
     y = "Book Category"
   )
-
 
 ## 10. Density chart with facet function
 ggplot(df, aes(Price,fill = Publisher)) +
