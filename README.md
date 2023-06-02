@@ -23,7 +23,7 @@ My R Projects are about to analyze data by import, clean, manipulate, visualize 
 - Data and Time manipulation
 - Exploratory Data Analysis of Store Sales
 - Bees and Plants Competition Project by DataCamp
-- Data Quality using Library Dataset
+- Data Quality Project - Book Store Dataset
 
 ## Python Programing Projects
 My Python Project is aiming to show a basic use case of manipulate data and answering business questions using Pandas and Numpy.
